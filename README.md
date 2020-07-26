@@ -1,33 +1,20 @@
 # Projekt
 
-```mermaid
-graph LR
-    test --> was_anderes
-    was_anderes --> ups
-    ups --> test
-```
-
-
-## Zweite Überschrift
-
-- eins
-- zwei
-- ....
-
-
-| h1  | h2  |
-| --- | --- |
-| x   | y   |
-| 1   | 3   |
-
-````bash
-ls -al
-````
-
-
-````java
-public class XyZ {
-    
-}
-````
-
+## ODB
+### Grundidee ODB2 Hobby
+### On-Board-Diagnose
+#### Entprellung 
+#### Reading Code
+#### Nutzen
+## CAN-Bus
+### Aufgabe 
+## Architektur
+### Schichtmuster 
+### Client-Sever-Master
+### Master-Slave-Master
+### Rohrfiltermuster 
+### Brokermuster
+### Peer-to-Peer-Muster
+### Ereignisbusmuster
+### Modell-Ansicht-Controller-Muster
+### Tafelmuster 
