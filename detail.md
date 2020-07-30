@@ -155,13 +155,14 @@ Controller -> Verarbeitet die Eingabe des Benutzers
 
 Informationen werden von der Art und Weise getrennt je nachdem wie sie vom Benutzer präsentiert und akzeptiert werden sollen.
 
-![GitHub](../Modell-Ansicht-Controller-Muster.svg)
+![GitHub](Modell-Ansicht-Controller-Muster.png)
+
 ### Blackboard patter 
 Eine Tafel ist strukturierter Speicher, dieser enthält Lösungsräume.
 Es sind auch Wissensquellen vorhanden, diese besitz unterschiedliche Module mit eigenen Darstellung. Zur guter letzt wird eine Steuerungskomponente benötigt, dort werden unterschiedliche MOdule ausgewählt, anschließend werden diese Konfiguriert und aussgeführt.
 Komponenten können auf die Tafel zugreifen und Daten als auch Wissen abrufen und Mustervergleiche erstellen.
 
-![GitHUb](../Tafelmuster.svg)
+![GitHub](Tafelmuster.svg)
 
 ### Interpreter patter
 Dieser Dient in der Regel als Sprachübersetzer.
@@ -409,7 +410,7 @@ Jetzt muss ich nur noch zwei Befehle eingeben und einen Link um zusehen ob ich a
 Wenn ich hinter dem http link ein /admin hinzufüge gelange ich auf eine web ansicht um Datenbanken zu bearbeiten.
 
   Als erstes erstelle ich einen Entwurf wie die Software aufgebaut sein könnte.
-  ![GitHubLogo](../SoftwareArchitektur1.svg)
+  ![GitHub](../ProjektGolf/SoftwareArchitektur1.svg) 
 Als erstes werde ich probieren Clouds zu erstellen, anschließend Datenbank und zur letzt die ganze verbindungen bis hin zum Interface.
 
 Durch einen dummen Copy an Place fehler habe ich es geschafft die Inhalte eines Ordners zu löschen dabei blieb der Ordner allerdings erhalten, konnte also nicht normal neu Insterlliert werden, und zerstörte somit einen Pfad.
@@ -435,6 +436,25 @@ Mit PyCharm ist die Insterllation von Python und co sehr einfach.
 - > "cmd.exe" /k ""PFAD\venv\Scripts\activate.bat""
   Dardurch wird automatisch der venv gestartet, mit allen insterllierten Features.
 - > Apply 
+  
+### Grundbegriffe klären
+
+- manage.py 
+ Diese Datei ist eine Art lokaler Projekt-Django-Administrator, der über die Befehlszeile mit Ihrem Projekt interagiert (Entwicklungsserver starten, Datenbank synchronisieren ...). Um eine vollständige Liste der Befehle zu erhalten, auf die über manage.py zugegriffen werden kann, können Sie den folgenden Code verwenden:
+
+$ python manage.py help
+
+- __init__.py
+   Behandeln Sie diesen Ordner nur für Python als Paket.
+
+- settings.py
+  Projekteinstellungen.
+
+- urls.py
+  Alle Links Ihres Projekts und die aufzurufende Funktion. Eine Art ToC(Das TOC-Protokoll oder Talk to OSCAR-Protokoll war ein Protokoll, das von einigen AOL Instant Messenger- Clients von Drittanbietern und mehreren von AOL selbst erstellten Clients verwendet wurde .) Ihres Projekts.
+
+- wsgi.py
+  Eine Schnittstelle zwischen Webservern und Webframeworks bzw. Web Application Servern festlegt, um die Portabilität von Webanwendungen auf unterschiedlichen Webservern zu fördern.
 ## Cloud
 
 
@@ -476,3 +496,33 @@ Es können natürlich auch teile von anderen Anbietern verwedent werden, wesshal
 ## Reperaturen 
 Der Ventilator zum Kühlen des Motors wollte nicht mehr anspringen, daraum habe ich mir mal angeguckt woran es liegen könnte und bin zu folgendem schluss gekommen:
 Es muss am Thermostat liegen, denn die Wasserpumpe fördert und der untere Kühlerschlauch bleibt kalt, das heißt er macht den großen Kühlkreislauf nicht auf, deswegen springt der Lüfte auch nicht an.
+
+Schließzylinder
+1. Obere Schraube lösen
+2. Türgrifff Richtung front schieben und raus hebeln
+3. Den langen "Schrauber" an der Feder runterdrücken  und richtung Öffnung neigen. Jetzt kann der "Schrauber" raus gezogen werden.
+4. Neuen "Schrauber" einsetzen und die Anleitung Rückwärts machen.
+   
+Termostat
+1. Pumpe der Servolenkung abschrauben.
+2. Abgewinkelter schwarzen Kunststoffflansch abschrauben.
+3. Zwangsweise die Kühlflüssigkeit ablassen.
+4. Neues Termostat mit Dichtungsring anbringen.
+5. Zusammen schrauben.
+6. Kühlflüssigkeit nachfüllen.
+   
+Kühlmitteltemperatursensor
+1. Sicherheitsklemme rausziehen.
+2. Fühler abziehen.
+3. Neuen draufsetzen.
+4. Einstecken und Klemme befässtigen
+   
+Rost entfernen
+|A Angerostet | B Durchgerostet |
+|-------------|------------------|
+| Mit Schmögelpapier Rost abkratzen | Betroffene Stelle (Kottflügel) Rausschneiden |
+| Dreck entfernen und Sauber machen | Neues Blech anschweißen |
+| Rostschutzmittel auf tragen | Schweißnatt runter Sägen/Pfeilen |
+| Farbeauftragen (Bei mir LC9Z)| Rostschutzmittel auf tragen |
+| Klarlack auftragen |Farbeauftragen |
+| | Klarlack auftragen |
