@@ -7,15 +7,15 @@
 ## Mathematische und Physikalische Grundlagen 
 ### Algebra 
 Algebra -> Rechnung mit Unbekannten in Gleichungen 
-![GitHub](../ProjektGolf/AlgebraPPP.png)
+![images](AlgebraPPP.png)
 ### Vektoren
-![GitHu](../ProjektGolf/Vektoren1.png)
+![GitHub](Vektoren1.png)
 ### Kinematik
 Kinematik ist die Bewegungslehre von Körpern. Der Massepunkt (Masse / M) beschläunigt oder wird gebremst. Es gibt zwei Arten von Bewegungen.
 
 1. Geradreaus (Translationsbewegungen)
 2. Kreisbahn 
-![GitHub](../ProjektGolf/Kinematik1a1a1.png)
+![GitHub](Kinematik1a1a1.png)
 1a. Gradeaus: Translationsbewegungen
 
 Translationsbewegungen eines Massepunktes m benötigt drei Größen: 
@@ -118,7 +118,7 @@ Network - Leitungsnetz
    
 ## Architektur 
 Hier werde ich zehn Architekturen Präsentieren und welche die in meinen Augen möglich wären für mein Vorhaben.
-### Layered pattern 
+### Layered Pattern 
 Unteraufgaben jeder auf eine andere Abstraktionseben. Jeder Schicht dient der nächsten. ich könnte mir diese zufolgt vorstellen: 
 Ein Bedienungsfeld wo man UNterschiedliche Teile des Autos aufrufen kann. das Bedienungsfeld ist kombiniert mit einem Bild von dem KFZ, beim drauf klicken auf ein Betsimmtes Feld werden alle Technischen INformationen Aufgerufen, die durch das OBD gesammelt werden konnten.
 
@@ -127,26 +127,26 @@ Lila steht in den Skiztzen für den Backend und die Orangen für den Frontend
  ![GitHub Logo](
 Schichtmuster.svg)
 
-### Client-Sever-pattern
+### Client-Sever-Pattern
 Ein Server ist der Dienstleister und Clienten fordern diesen an.
-### Master-Slave-pattern
+### Master-Slave-Pattern
 Der Master verteilt aufgaben an die Sklaven. Der Master berechnet aus allen Ergebnisse der Sklaven eine Lösung.
-### Pipe-filter pattern
+### Pipe-filter Pattern
 System strukturieren.
 Datein werden durch Filter getrennt.
 ![GitHub Logo](Rohrfiltermuster.svg)
-### Broker patter 
+### Broker Pattern 
 Client fordert beim Broker etwas an und der Broker verbindet dann mit einem passenden Server.
-### Peer-to-Peer-patter
+### Peer-to-Peer-Pattern
 Zwei Peers (können Sever und/oder Clienten sein) arbeiten zusammen
-### Even-bus patter
+### Even-bus Pattern
 4 Ebenen 
 1. Ereignesquelle
 2. Ereignis-Listener
 3. Kanal
 4. Ergebnisbus 
 
-### Model-view-controller-patter
+### Model-view-controller-Pattern
 Modell -> enthält kernfunktionalität und Daten
 
 Ansicht -> Zeigt dem Benutzer die Informationen an
@@ -157,14 +157,14 @@ Informationen werden von der Art und Weise getrennt je nachdem wie sie vom Benut
 
 ![GitHub](Modell-Ansicht-Controller-Muster.png)
 
-### Blackboard patter 
+### Blackboard Pattern 
 Eine Tafel ist strukturierter Speicher, dieser enthält Lösungsräume.
 Es sind auch Wissensquellen vorhanden, diese besitz unterschiedliche Module mit eigenen Darstellung. Zur guter letzt wird eine Steuerungskomponente benötigt, dort werden unterschiedliche MOdule ausgewählt, anschließend werden diese Konfiguriert und aussgeführt.
 Komponenten können auf die Tafel zugreifen und Daten als auch Wissen abrufen und Mustervergleiche erstellen.
 
 ![GitHub](Tafelmuster.svg)
 
-### Interpreter patter
+### Interpreter Pattern
 Dieser Dient in der Regel als Sprachübersetzer.
 
 
@@ -255,7 +255,8 @@ IP -> Schicht 3 OSI
 TCP -> Schicht 4 OSI
 # Raspberry Pi
 ## Plan
-Ich habe vor mir ein eigenes OBD 2 Gerät zubauen. Hier für nutze ich ein Raspberry PI, darüber hinaus will ich mit eienm zweiten eine art CarPlay instellieren, wo mein Handy sich über WiFi mit dem Raspberry Pi verbindet.
+Ich habe vor mir ein eigenes OBD 2 Gerät zubauen. Hier für nutze ich ein Raspberry PI, darüber hinaus will ich mit eienm zweiten eine reihe von weitern nützlichen features hinzufügen wie eine art CarPlay, wo mein Handy sich über WiFi mit dem Raspberry Pi verbindet.
+Außerdem eine Einpark hilfe mit Kammeras und nähe Sensoren.
 Im Idealfall schaffe ich es das der Pi erst bei Calmp15 startet und somit die Autobatterie nicht unnötig belastet.
 ## Insterlation von PiOS
 ### Was wird benötigt:
@@ -410,7 +411,7 @@ Jetzt muss ich nur noch zwei Befehle eingeben und einen Link um zusehen ob ich a
 Wenn ich hinter dem http link ein /admin hinzufüge gelange ich auf eine web ansicht um Datenbanken zu bearbeiten.
 
   Als erstes erstelle ich einen Entwurf wie die Software aufgebaut sein könnte.
-  ![GitHub](../ProjektGolf/Softwarearchitektur.png) 
+  ![GitHub](Softwarearchitektur.png) 
 Als erstes werde ich probieren Clouds zu erstellen, anschließend Datenbank und zur letzt die ganze verbindungen bis hin zum Interface.
 
 Durch einen dummen Copy an Place fehler habe ich es geschafft die Inhalte eines Ordners zu löschen dabei blieb der Ordner allerdings erhalten, konnte also nicht normal neu Insterlliert werden, und zerstörte somit einen Pfad.
@@ -459,8 +460,12 @@ $ python manage.py help
 
 
 
-  # Umbauten & Reperaturen
-  ## Was für Umbauten will ich vornehmen?
+  # Umbauten, Leistungstuning & Reperaturen
+  ## Umbauten
+  ### CarPlay
+  ### Park Assitent
+  ### Zentralverrieglung 
+  ## Was für Leistungs Tuning nehme ich vornehmen?
 1. Technische Umbauten
    - Auspuffsanlage (Vom VR&)
    - Bremsen (Vom VR6)
@@ -472,12 +477,12 @@ $ python manage.py help
 
 2. Optik 
    - Luftfahrwerk(TA Technix /Viair Luftfahrwerk passend für Seat Toledo I / VW Golf III, Golf Cabriolet, Vento)
-   - Felgen (ATS Streetrallye racing-schwarz 7x17 ET25 - LK4/108 ML65.1)
+   - Felgen (ATS Streetrallye racing-schwarz 7x17 ET25 - LK4/108 ML65.1/VR6 BBS Felgen)
    - Reifen
    - Heckspoiler (VW Golf 3 Golf III Dachspoiler Heckspoiler mit Bremslicht tuning-rs)
    - Boxen (Hinten als auch vorne)
    - Sub (Blaupunkt GTB 8200A, 200W, Aktiv Auto-Subwoofer - Schwarz)
-   - Scheinwerer (Doppellinsen Scheinwerfer Projektor VW Golf 3 Bj. 1991-1997 Smoke)
+   - Scheinwerer (Depo Angel Eyes in Schwarz Halogen)
    - Radio 
 
 3.  Tuning auf 400PS
