@@ -438,6 +438,23 @@ Mit PyCharm ist die Insterllation von Python und co sehr einfach.
   Dardurch wird automatisch der venv gestartet, mit allen insterllierten Features.
 - > Apply 
   
+### Alle guten Dinge sind drei... 
+
+Die ganzen Module die ich besitze sind für eine kernel Version bis 4.4. gedacht. Diese bekomme ich allerdings nicht hin zu Insterllieren, eigentlich sollte es mit folgendem befehl klappen: 
+
+sudo rpi-update 6d8401e317b2d6bff8db15811edc4465d763ba3f
+
+Leider lädt der Pi dann nicht hoch und die SD-Karte sei angeblich defekt(dennoch kann man die neue Version raufspielen und die SD Karte arbeitet normal).
+ ![GitHub](WhatsAppBildRaaspberryPI1.jpeg) 
+ Nun werde ich als erst alles mit einem vcan machen.
+
+ Als erstes muss ich ein vcan mit folgenden befehlen erstellen:
+
+- > apt-get install can-utils
+ - >  modprobe vcan
+ - >sudo ip link add dev vcan0 type vcan
+ - > sudo ip link set up vcan0
+  
 ### Grundbegriffe klären
 
 - manage.py 
