@@ -1,10 +1,27 @@
-# Mechatronik Grundlagen
-## Mathematische und Physikalische Grundlagen
-### Algebra
-### Vektoren
-### Kinematik
+# Gulf 3 GT
 
-## Mathematische und Physikalische Grundlagen 
+Herzlich Willkommen auf meiner GitHub Seite.
+Dies hier ist eine hälfte von meinem Projekt ein VW Golf 3 umzubauen. Dabei soll GitHub als eine Art Portfolie dienen, mit kleineren Ergänzungen, und Medium soll sich mit den Laufenden Prozesse befassen.
+Selbstverständlich werden Sie auch hier änderungen finden, vorallem im Punkt Umbauten, Leistungstuning & Reperaturen.
+Dort werden Sie auch eine Detailierte Erklärenung über das Projekt finden.
+(Ps die Fotos sind hier für den Dark Mode gemacht). 
+
+Gliederung:
+
+## Mechatronik Grundlagen
+### Mathematische und Physikalische Grundlagen
+#### Algebra
+#### Vektoren
+#### Kinematik
+## Informatik
+### OBD 2
+### Software Architektur
+### Grundlagen Netzwerktechnik
+## Raspberry Pi
+## Software/APP Entwicklung
+## Umbauten, Leistungstuning & Reperaturen
+
+# Mathematische und Physikalische Grundlagen 
 ### Algebra 
 Algebra -> Rechnung mit Unbekannten in Gleichungen 
 ![images](AlgebraPPP.png)
@@ -72,7 +89,9 @@ Ekin = 1/2 mc*2
 
 Die Einheit der Energie ist kg m*2/s*2 oder Joul.
 ### Drehmoment und Kräfte     
-# ODB
+
+# Informatik
+## ODB
 ## Grundidee ODB2 Hobby
 Technische Daten über mein KFZ-Sammeln, anschließend drauf Reagieren ggf. Reperieren. 
 1. Den OBD2 Stecker anschließen und die Daten auf dem Handy speichern.
@@ -484,7 +503,7 @@ $ python manage.py help
   ### Zentralverrieglung 
   ## Was für Leistungs Tuning nehme ich vornehmen?
 1. Technische Umbauten
-   - Auspuffsanlage (Vom VR&)
+   - Auspuffsanlage (Vom VR6)
    - Bremsen (Vom VR6)
    - Achsen (Vom VR6)
    - Antriebsstrang (Vom Audi S3 / für ein 6 Gang Getriebe)
@@ -493,14 +512,15 @@ $ python manage.py help
    - Sportkupplung (Kupplungssatz SACHS Performance - "Racing" - OE 06F141015C)
 
 2. Optik 
-   - Luftfahrwerk(TA Technix /Viair Luftfahrwerk passend für Seat Toledo I / VW Golf III, Golf Cabriolet, Vento)
-   - Felgen (ATS Streetrallye racing-schwarz 7x17 ET25 - LK4/108 ML65.1/VR6 BBS Felgen)
+   - DTS Line Gewindefahrwerk
+   - Felgen (433 BBS)
    - Reifen
-   - Heckspoiler (VW Golf 3 Golf III Dachspoiler Heckspoiler mit Bremslicht tuning-rs)
+   - Heckspoiler (Voomeran)
    - Boxen (Hinten als auch vorne)
    - Sub (Blaupunkt GTB 8200A, 200W, Aktiv Auto-Subwoofer - Schwarz)
    - Scheinwerer (Depo Angel Eyes in Schwarz Halogen)
    - Radio 
+   - Sternhimmel Nachrüsten
 
 3.  Tuning auf 400PS
    - 1.8T 20V Super Alloy Auslass Ventile FERREA
@@ -511,6 +531,7 @@ $ python manage.py help
    - 1.8T Tuning-Kit STUFE 5 BAR-TEK
    - 1.8T Upgrade Luftmassenmesser BAR-TEK
    - 1.8T EVO Ladeluftkühler
+   - 1.8T Upgrade auf 2 Liter Hubraum, durch ein weiteres BAR-TEK Produkt
    - Kraftstoff Catch Tank mit Bosch 044 Benzinpumpe
 
 Es können natürlich auch teile von anderen Anbietern verwedent werden, wesshalb ich dort weiter auf der Suche bin nach besseren und / oder Preiswerteren Artikeln. 
